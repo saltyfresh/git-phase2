@@ -1,0 +1,83 @@
+console.log("this" == "that")
+console.log(1!=2)
+console.log(2 > 3)
+console.log(3 > 3)
+console.log(3 >= 3)
+
+
+console.log(stuff)
+
+
+
+
+var stuff = 50;
+
+if(stuff , 100){
+  console.log("small number")
+}
+
+console.log("done")
+\
+\
+var stuff = 50;
+
+if(stuff < 100){
+  console.log("small number")
+} else {
+  console.log("big number")
+}
+
+
+
+var stuff = 10;
+
+if(stuff > 0){
+  console.log(stuff / 2);
+} else if(stuff < 0){
+  console.log("stuff is negative");
+}else if (stuff == 0){
+  console.log("stuff is zero")
+} else {
+  console.log("stuff is not a number")
+}
+
+
+var num = 550;
+
+if(num > 0 && num <100){
+  console.log("valif")
+}
+
+if(num > 0 || num == 0){
+  console.log("number happened")
+}
+
+
+
+while and for loops 
+
+
+var num = 10;
+var counter = 0 
+
+while(counter < num) {
+  console.log(counter);
+  counter++
+}
+
+/*or you can write it like this (preferred method) */
+
+for(var i = 0; i < num; i++){
+  console.log(i)
+}
+
+
+
+
+
+var foodList = ["Pizza", "Ramen", "Salad", "Ice Cream"]
+
+for(var i = 2; i < foodList.length; i++){
+  console.log(foodList[i] + " is delicious")
+}
+

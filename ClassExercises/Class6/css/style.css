@@ -1,0 +1,45 @@
+.jumbotron h1{
+    color: red;
+    
+}
+
+.jumbotron{
+    background-color: grey;
+} 
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.red-button:hover, .red-button:active, .red-button:focus {
+    background-color:blue;
+}
+
+.red-dropdown {
+    background-color:red;
+    
+}
+
+.dropdown-menu > li > a {
+    color:white;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.modal-title {
+    color: red;
+}
+
+.btn-default-modal {
+    background-color: red;
+}
+
+
+.carousel-inner {
+    width:540px;
+    height: auto;
+    
+}

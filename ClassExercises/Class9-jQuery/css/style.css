@@ -1,0 +1,25 @@
+.red{
+    color:red;
+}
+
+.blue{
+    color:blue;
+}
+
+.content{
+    
+    overflow: hidden;
+    border:2px solid red;
+    transition:1s;
+    min-height: 50px;
+}
+
+.ian-hidden{
+    min-height: 0px;
+    height:0px;
+}
+
+#roll{
+    transition:1s;
+}
+

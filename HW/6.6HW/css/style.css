@@ -1,0 +1,18 @@
+.jumbotron h1{
+    color: red;
+    
+}
+
+.jumbotron{
+    background-color: ligh-grey;
+} 
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 100%;
+}
+
